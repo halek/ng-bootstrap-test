@@ -6,10 +6,11 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {NavComponent} from './nav/nav.component';
 import {FooterComponent} from './footer/footer.component';
+import { LogPanelComponent } from './log-panel/log-panel.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NavComponent, FooterComponent
+    AppComponent, NavComponent, FooterComponent, LogPanelComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule
