@@ -7,10 +7,11 @@ import {AppComponent} from './app.component';
 import {NavComponent} from './nav/nav.component';
 import {FooterComponent} from './footer/footer.component';
 import { LogPanelComponent } from './log-panel/log-panel.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NavComponent, FooterComponent, LogPanelComponent
+    AppComponent, NavComponent, FooterComponent, LogPanelComponent, LoginComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule
