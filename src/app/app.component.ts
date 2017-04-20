@@ -20,6 +20,6 @@ export class AppComponent implements OnInit {
     AddMsg() {
         this
             .logPanelComponent
-            .add('Teste');
+            .add('Novo');
     }
 }
